@@ -14,7 +14,23 @@ public class Aluno {
     private String curso;
     
     public void cancelarMatric(){
-        
+        System.out.println("A MATRÍCULA SERÁ CANCELADA ");
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
     }
     
 }

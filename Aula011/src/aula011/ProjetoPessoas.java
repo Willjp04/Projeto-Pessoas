@@ -9,7 +9,7 @@ package aula011;
  *
  * @author PORTOMASTER
  */
-public class Aula011 {
+public class ProjetoPessoas {
 
     /**
      * @param args the command line arguments
