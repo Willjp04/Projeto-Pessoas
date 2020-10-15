@@ -42,6 +42,11 @@ public class Pessoa {
     public void setSexo(String Sexo) {
         this.Sexo = Sexo;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", Sexo=" + Sexo + '}';
+    }
  
     
 }
