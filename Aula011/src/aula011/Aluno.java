@@ -9,7 +9,7 @@ package aula011;
  *
  * @author PORTOMASTER
  */
-public class Aluno {
+public class Aluno extends Pessoa {
     private int matricula;
     private String curso;
     
